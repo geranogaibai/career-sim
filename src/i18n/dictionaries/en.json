@@ -3,7 +3,11 @@
     "title": "Career Sim",
     "description": "Play out your possible career paths before you live them."
   },
-  "nav": { "home": "Home", "explore": "Explore transitions", "switchLang": "Русский" },
+  "nav": {
+    "home": "Home",
+    "explore": "Explore transitions",
+    "switchLang": "Русский"
+  },
   "home": {
     "eyebrow": "Career simulator",
     "title": "Play out your next career before you live it",
@@ -12,9 +16,18 @@
     "ctaUpload": "Upload CV",
     "comingSoon": "coming soon",
     "pillars": [
-      { "title": "Linear and non-linear paths", "body": "Climb your current ladder, or jump sideways using the skills you already have." },
-      { "title": "Emerging and hands-on roles", "body": "AI-anything, UGC and creator careers, or a downshift into a trade, with honest reskilling timelines." },
-      { "title": "A CV that matches your path", "body": "The game learns where you're heading and suggests what to highlight in your CV." }
+      {
+        "title": "Linear and non-linear paths",
+        "body": "Climb your current ladder, or jump sideways using the skills you already have."
+      },
+      {
+        "title": "Emerging and hands-on roles",
+        "body": "AI-anything, UGC and creator careers, or a downshift into a trade, with honest reskilling timelines."
+      },
+      {
+        "title": "A CV that matches your path",
+        "body": "The game learns where you're heading and suggests what to highlight in your CV."
+      }
     ]
   },
   "explore": {
@@ -29,6 +42,22 @@
     "licensed": "Requires a licence or apprenticeship (varies by country)",
     "emerging": "Emerging",
     "trade": "Trade",
-    "draftNote": "Draft data: skill profiles and learning times are rough placeholders for review, not researched figures."
+    "draftNote": "Draft data: skill profiles and learning times are rough placeholders for review, not researched figures.",
+    "roadmapLink": "Learning roadmap on roadmap.sh",
+    "showAll": "Show all {n} roles",
+    "topMatches": "Closest moves",
+    "families": {
+      "marketing": "Marketing",
+      "product": "Product",
+      "customer": "Customer",
+      "research": "Research",
+      "data": "Data",
+      "ai": "AI and ML",
+      "engineering": "Engineering",
+      "security": "Security and infrastructure",
+      "design": "Design",
+      "creator": "Creator economy",
+      "trades": "Trades"
+    }
   }
 }

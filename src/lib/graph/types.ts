@@ -21,6 +21,9 @@ export type RoleFamily =
   | "research"
   | "creator"
   | "ai"
+  | "engineering"
+  | "design"
+  | "security"
   | "trades";
 
 export interface RoleSkill {
@@ -41,6 +44,8 @@ export interface Role {
    * transfer across countries, which matters for relocation paths.
    */
   licensing?: { typicalMonths: number };
+  /** Slug of the matching learning roadmap on roadmap.sh, linked from the app (content is not copied). */
+  roadmapSlug?: string;
   /** Typical next roles on the linear ladder (reference paths go here). */
   nextRoles?: RoleId[];
 }
