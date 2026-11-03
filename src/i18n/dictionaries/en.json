@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "title": "Career Sim",
+    "description": "Play out your possible career paths before you live them."
+  },
+  "nav": { "home": "Home", "explore": "Explore transitions", "switchLang": "Русский" },
+  "home": {
+    "eyebrow": "Career simulator",
+    "title": "Play out your next career before you live it",
+    "subtitle": "Upload your CV, pick where you want to go (or go in blind), and simulate the years ahead: reskilling, relocation, setbacks and wins. Then see how to reframe your CV for the path you liked.",
+    "ctaExplore": "Explore career transitions",
+    "ctaUpload": "Upload CV",
+    "comingSoon": "coming soon",
+    "pillars": [
+      { "title": "Linear and non-linear paths", "body": "Climb your current ladder, or jump sideways using the skills you already have." },
+      { "title": "Emerging and hands-on roles", "body": "AI-anything, UGC and creator careers, or a downshift into a trade, with honest reskilling timelines." },
+      { "title": "A CV that matches your path", "body": "The game learns where you're heading and suggests what to highlight in your CV." }
+    ]
+  },
+  "explore": {
+    "title": "Career transitions",
+    "intro": "Pick a starting role to see where your skills can take you. Overlap shows how much of the target role's skill set you already cover.",
+    "from": "Starting from",
+    "overlap": "skill overlap",
+    "reskill": "estimated reskilling",
+    "months": "months",
+    "gaps": "Skills to build",
+    "noGaps": "No gaps: you already cover this role's skills.",
+    "licensed": "Requires a licence or apprenticeship (varies by country)",
+    "emerging": "Emerging",
+    "trade": "Trade",
+    "draftNote": "Draft data: skill profiles and learning times are rough placeholders for review, not researched figures."
+  }
+}
